@@ -3,10 +3,10 @@
 </script>
 
 <Component
-	on:declaredType={(e) => {
+	on:event1={(e) => {
 		console.log(e.detail.gagagaga);
 	}}
-	on:inlineType={(e) => {
+	on:event2={(e) => {
 		console.log(e.detail.gagagaga);
 	}}
 />
